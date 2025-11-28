@@ -1,0 +1,36 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.navbar-brand {
+    color: #00ff88 !important; 
+    letter-spacing: 2px;
+}
+
+.hero-section {
+    background: linear-gradient(135deg, #1a0b2e 0%, #4a148c 100%);
+    min-height: 80vh; 
+    margin-top: 56px;
+    color: white !important; 
+}
+
+.custom-btn {
+    background-color: #00ff88;
+    color: #1a0b2e;
+    border: none;
+    font-weight: bold;
+    padding: 12px 30px;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.custom-btn:hover {
+    background-color: #00cc6a;
+    color: #fff;
+    transform: scale(1.05); 
+    box-shadow: 0 0 15px rgba(0, 255, 136, 0.5); 
+}
+
+section {
+    overflow-x: hidden; 
+}
